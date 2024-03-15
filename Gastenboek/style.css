@@ -1,0 +1,151 @@
+* {
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  background-color: #fdccd9;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.16);
+  margin: 10px;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #fdccd9;
+  height: 97vh;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 7px;
+  background-color: #333;
+  color: white;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.16);
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+input[type="text"],
+.messageinput {
+  border-radius: 7px;
+  margin-top: 20px;
+  font-size: 16px;
+  border: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.16);
+  background-color: #eee;
+  width: 17rem;
+  padding: 5px 10px;
+}
+
+input[type="text"]:focus,
+.messageinput:focus {
+  outline: none !important;
+  border: 1.5px solid #333;
+}
+
+#file-label {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  background-color: #fdccd9;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.166);
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+h3 {
+  font-weight: 500;
+  margin-bottom: -10px;
+}
+.message {
+  display: flex;
+  align-items: flex-start; /* verander dit naar 'flex-end' */
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: #fff;
+  max-height: fit-content;
+  margin-right: 10px;
+  max-width: 850px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.16);
+}
+
+.messageinput {
+  height: 100%;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    ". message-container message-container message-container"
+    ". message-container message-container message-container"
+    ". message-container message-container message-container";
+}
+
+#message-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* berichten worden links uitgelijnd */
+  gap: 10px; /* ruimte tussen berichten */
+  padding: 10px; /* ruimte rond de berichten container */
+  overflow-y: auto; /* maakt scrollen mogelijk als er te veel berichten zijn */
+  max-height: 100vh; /* stelt een maximale hoogte in voor de berichten container */
+  width: 100%;
+  grid-area: message-container;
+  overflow: auto;
+}
+
+#message-container::-webkit-scrollbar {
+  width: 0px;
+}
+
+.uploadedimg {
+  border-radius: 5px;
+  max-height: 150px;
+  height: auto;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 10px; /* voeg wat ruimte toe tussen de tekst en de afbeelding */
+  /* margin-left: auto; verwijder deze regel */
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.textmessage {
+  word-wrap: break-word;
+}
+
+input[type="submmit"] {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.16);
+
+}
