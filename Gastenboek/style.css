@@ -7,7 +7,7 @@
 }
 
 body {
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: #fdccd9;
 }
 
@@ -148,4 +148,9 @@ h3 {
 input[type="submmit"] {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.16);
 
+}
+
+#message-countdown {
+  font-size: 11px;
+  margin-top: 10px;
 }
