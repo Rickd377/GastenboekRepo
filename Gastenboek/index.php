@@ -1,3 +1,10 @@
+<?php
+    $_GET["message"] = "alreadySent";
+    if (isset($_GET["message"])) {
+        echo "<script>alert('Message already sent!');</script>";
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <?php include "header.php"; ?>
@@ -17,47 +24,6 @@
                 <p>Choose file</p>
             </label>
             <input type="submit" value="Upload" name="submit" style="font-size: 15px;">
-            <!-- actual code timer 12hours -->
-            <?php
-            // Set to true for testing, false for production
-            $testing = true;
-
-            if (isset ($_COOKIE['message_countdown'])) {
-                $countdown = $_COOKIE['message_countdown'];
-                if ($testing) {
-                    // If testing, set countdown to 1 minute
-                    $countdown = 60;
-                }
-                echo "<div id='message-countdown'>You can send a message again in: <span id='timer'></span></div>";
-                ?>
-                <script>
-                    // Set the countdown time
-                    var countdown = <?php echo $countdown; ?>;
-
-                    // Update the countdown every 1 second
-                    var x = setInterval(function () {
-
-                        // Calculate the hours, minutes and seconds
-                        var hours = Math.floor(countdown / 3600);
-                        var minutes = Math.floor((countdown % 3600) / 60);
-                        var seconds = Math.floor(countdown % 60);
-
-                        // Display the countdown
-                        document.getElementById('timer').innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
-
-                        // Decrease the countdown by 1
-                        countdown--;
-
-                        // If the countdown is finished, write some text 
-                        if (countdown < 0) {
-                            clearInterval(x);
-                            document.getElementById('timer').innerHTML = "You can send a message now!";
-                        }
-                    }, 1000);
-                </script>
-                <?php
-            }
-            ?>
         </form>
         <?php include "display-messages.php"; ?>
     </div>

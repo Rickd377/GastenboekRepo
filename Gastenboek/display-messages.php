@@ -18,5 +18,3 @@ foreach ($data as $key => $entry) {
     echo "</div>";
 }
 echo "</div>";
-
-?>
