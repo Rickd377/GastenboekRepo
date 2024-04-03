@@ -1,68 +1,50 @@
 [
     {
-        "name": "asdf",
-        "message": "afd",
+        "name": "Message",
+        "message": "This is a test message",
+        "image": "uploads\/pfp.jpg",
+        "uploadTime": "2024-04-03  10:52"
+    },
+    {
+        "name": "Message",
+        "message": "This is a test message",
+        "image": "uploads\/pfp.jpg",
+        "uploadTime": "2024-04-03  10:53"
+    },
+    {
+        "name": "Message",
+        "message": "This is a test message",
+        "image": "uploads\/pfp.jpg",
+        "uploadTime": "2024-04-03  10:53"
+    },
+    {
+        "name": "Message",
+        "message": "This is a test message",
+        "image": "uploads\/pfp.jpg",
+        "uploadTime": "2024-04-03  10:54"
+    },
+    {
+        "name": "Message",
+        "message": "This is a test message",
+        "image": "uploads\/pfp.jpg",
+        "uploadTime": "2024-04-03  10:55"
+    },
+    {
+        "name": "Message",
+        "message": "This is a test message",
+        "image": "uploads\/pfp.jpg",
+        "uploadTime": "2024-04-03  10:56"
+    },
+    {
+        "name": "asdfsda",
+        "message": "asf",
         "image": null,
-        "uploadTime": "2024-03-18 09:48"
+        "uploadTime": "2024-04-03  11:19"
     },
     {
-        "name": "afgs",
-        "message": "sdfgsdfg",
+        "name": "sdf",
+        "message": "sdf",
         "image": null,
-        "uploadTime": "2024-04-03  09:46"
-    },
-    {
-        "name": "asdfasd",
-        "message": "afdasdf",
-        "image": "images\/F47qzSbbkAAJ6UJ.jpg",
-        "uploadTime": "2024-04-03  09:47"
-    },
-    {
-        "name": "asdfasd",
-        "message": "afdasdf",
-        "image": "images\/F47qzSbbkAAJ6UJ.jpg",
-        "uploadTime": "2024-04-03  09:48"
-    },
-    {
-        "name": "werf",
-        "message": "werrwe",
-        "image": "uploads\/F47qzSbbkAAJ6UJ.jpg",
-        "uploadTime": "2024-04-03  09:50"
-    },
-    {
-        "name": "rick",
-        "message": "Deuradsfasdfasdfasf",
-        "image": null,
-        "uploadTime": "2024-04-03  09:50"
-    },
-    {
-        "name": "sdfgfsd",
-        "message": "sdfgdsfg",
-        "image": null,
-        "uploadTime": "2024-04-03  09:51"
-    },
-    {
-        "name": "asdf",
-        "message": "sadf",
-        "image": "uploads\/Schermafbeelding 2024-04-02 091856.png",
-        "uploadTime": "2024-04-03  09:52"
-    },
-    {
-        "name": "dfadf",
-        "message": "asfd",
-        "image": null,
-        "uploadTime": "2024-04-03  10:08"
-    },
-    {
-        "name": "sdfa",
-        "message": "asdf",
-        "image": "uploads\/Schermafbeelding 2024-04-02 091856.png",
-        "uploadTime": "2024-04-03  10:18"
-    },
-    {
-        "name": "rrick",
-        "message": "dfasdg",
-        "image": null,
-        "uploadTime": "2024-04-03  10:20"
+        "uploadTime": "2024-04-03  11:20"
     }
 ]

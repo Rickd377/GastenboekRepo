@@ -1,8 +1,7 @@
 <?php
-    $_GET["message"] = "alreadySent";
     if (isset($_GET["message"])) {
         echo "<script>alert('Message already sent!');</script>";
-    }
+    } 
 ?>
 
 <!DOCTYPE html>
@@ -21,7 +20,7 @@
             <br>
             <input type="file" id="image" name="image">
             <label for="image" id="file-label"><i class="fa-solid fa-image"></i>
-                <p>Choose file</p>
+                <p>Choose An Image</p>
             </label>
             <input type="submit" value="Upload" name="submit" style="font-size: 15px;">
         </form>
