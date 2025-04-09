@@ -34,17 +34,5 @@
         "message": "This is a test message",
         "image": "uploads\/pfp.jpg",
         "uploadTime": "2024-04-03  10:56"
-    },
-    {
-        "name": "asdfsda",
-        "message": "asf",
-        "image": null,
-        "uploadTime": "2024-04-03  11:19"
-    },
-    {
-        "name": "sdf",
-        "message": "sdf",
-        "image": null,
-        "uploadTime": "2024-04-03  11:20"
     }
 ]
